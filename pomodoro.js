@@ -21,7 +21,6 @@ startBtn.addEventListener("click", () => {
   seconds = mins * 60;
   totalsecs = mins * 60;
   setTimeout(decremenT(), 60);
-  startBtn.style.transform = "scale(0)";
   paused = false;
 });
 
