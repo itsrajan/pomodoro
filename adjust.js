@@ -34,4 +34,4 @@ pauseBtn.addEventListener("click", () => {
     pauseBtn.classList.add("resume");
     paused = true;
   }
-});
+}); 
